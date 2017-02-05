@@ -7,9 +7,9 @@ $capsule = new Capsule();
 $capsule->addConnection([
 	'driver' => 'mysql',
 	'host' => 'us-cdbr-iron-east-04.cleardb.net',
-	'username' => 'be9e1ad6afef96',
-	'password' => '59c8a0b4',
-	'database' => 'heroku_b557402fce4549d',
+	'username' => 'b0373d2042ebc0',
+	'password' => '2b3ba17d',
+	'database' => 'heroku_efa23e2d075e597',
 	'charset' => 'utf8',
 	'collation' => 'utf8_unicode_ci',
 	'prefix' => ''
