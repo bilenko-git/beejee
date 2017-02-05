@@ -1,0 +1,11 @@
+{
+	"require": {
+		"illuminate/database": "4.2.*",
+		"ext-gd": "*"
+	},
+	"autoload": {
+		"classmap": [
+			"app/models"
+		]
+	}
+}

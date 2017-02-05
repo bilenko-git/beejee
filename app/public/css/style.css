@@ -1,0 +1,102 @@
+body {
+    background: #fefefe; 
+    margin: 0; 
+    padding: 0;
+    color: #272727;
+    counter-reset: bl-counter;
+}
+img {
+    margin: 0; 
+    padding: 0; 
+    vertical-align: middle; 
+    border: none;
+}
+.wrap {
+    background-color: #ad4848;
+}
+menu li {
+    display: inline;
+}
+nav .logo {
+    color: #fff;
+}
+nav .logo .ltitle {
+    font-size: 30px;
+}
+nav .logo .lsub {
+    font-size: 16px;
+}
+nav menu a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+nav .wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+}
+nav .logo {
+    flex: 1 1 auto;
+    line-height: 30px;
+}
+nav menu {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media (max-width: 650px) {
+    nav .logo {
+        text-align: center;
+    }
+}
+.container {
+    margin-top: 10px;
+}
+.tasks .task {
+    border: 1px solid #ccd0d2;
+    margin: 0px 0px 10px 0px;
+    border-radius: 4px;
+}
+
+.tasks .task .row,
+.tasks .task_preview .row{
+    margin: 10px 0px;
+}
+.formAddTask {
+    margin-bottom: 20px;
+}
+button.addTask {
+    margin-bottom: 10px;
+}
+.formAddTask div.btn {
+    background-color: #8fab8f;
+    color: white;
+    margin-right: 5px;
+}
+.task_preview {
+    border: 1px solid green;
+    margin: 0px 0px 10px 0px;
+    border-radius: 4px;
+}
+.email {
+    font-family: italic;
+}
+.filter {
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.glyphicon-edit {
+    float: right;
+}
+.formEditTask {
+    margin-bottom: 10px;
+}
+.closeEditTask {
+    background-color: #a76363;
+    color: white;
+    margin-right: 5px;
+}
